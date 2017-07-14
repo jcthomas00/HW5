@@ -1,0 +1,11 @@
+Create quiz object
+	has question, answer[], correct-index
+	Pull data from trivia db and put into array of quiz objs
+Wait for user to click start
+Put info from quiz obj onto screen
+Give user 30 seconds to select an answer
+	if user selects correct answer - congratulate
+	if user selects wrong/doesn't select - show incorrect message
+		-move onto next question
+After 10 questions, show result with 'replay' button
+once user hits 'replay' start new round of quiz without reloading the page
